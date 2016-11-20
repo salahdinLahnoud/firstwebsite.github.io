@@ -1,0 +1,106 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 3, 2014, 3:14:18 PM
+    Author     : salahdin
+*/
+
+              /*     NAVIGATION MENU */
+              ul#navmenu, ul.sub1, ul.subsub1{
+                  list-style-type: none;  
+                  font-size: 10pt; 
+                      
+              }
+              ul#navmenu li{
+                  
+                  width: 110px;
+                  text-align: center;
+                  position: relative;
+                  float: left;
+       
+              }
+              ul#navmenu a{
+                  text-decoration: none;
+                  display: block;
+                  width: 125px;
+                  height: 25px;
+                  line-height: 25px;
+                  background-color: #FFF;
+                  border: 1px solid #CCC;
+                  border-radius: 5px;               
+                  
+              }
+              ul#navmenu .sub1 li{
+                 
+                  
+  
+              }
+              
+              ul#navmenu .sub1 a{
+                  margin-top: 5px;               
+                  
+              }
+              ul#navmenu .subsub1 a{
+                  margin-left: 10px;
+                  
+                  
+              }
+              ul#navmenu li:hover > a{
+                  background-color: #CFC;       
+              }
+              ul#navmenu ul.sub1{
+                  display: block;
+                  position: absolute;
+                  
+                  
+                  
+              }
+              ul#navmenu li:hover a:hover{
+                  
+                  background-color: #FF0; 
+              }
+              ul#navmenu ul.sub1{
+                  
+                  display: none;
+                  position: absolute;
+                  top:20px ;
+                  left: 0px;  
+              }
+              ul#navmenu ul.subsub1{
+                  
+                  display: none;
+                  position: absolute;
+                  top: 0px;
+                  left: 121px;
+                                   
+              }
+              ul#navmenu li:hover .sub1{
+                  display: block;              
+                  
+              }
+              UL#navmenu .sub1 li:hover .subsub1{
+                  display: block ;
+                  
+                  
+              }
+              .darrow{
+                  font-size: 11pst;
+                  position: absolute;
+                  top: 5px;
+                  right: 4px;  
+                  color : #DF7401;
+                  
+              }
+              .rarrow{
+                  font-size: 11pst;
+                  position: absolute;
+                  top: 5px;
+                  right: 4px;
+                  color : #DF7401;
+                  
+              }
+            
+

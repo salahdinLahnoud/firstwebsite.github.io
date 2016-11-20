@@ -1,0 +1,174 @@
+/* 
+    Document   : style
+    Created on : 29 nov. 2013, 15:29:53
+    Author     : salahdin
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0;
+	padding:0;
+}
+
+body {
+	background:#DF7401;
+}
+
+#container {
+	width:1025px;
+	margin: 75px auto 0px auto;
+	background:#DF7401;
+	position:relative;
+}
+.clear{
+clear: both;
+}
+#header {
+	position:absolute;
+	background:url("../images/khaledSiteHeader1.png") no-repeat ;
+	width:1025px;
+	height:252px;
+	z-index:1;
+}
+
+#header img {
+	float:right;
+	margin-top:-170px;
+        width:325px;
+	height:220px;
+}
+
+
+#header h1 {
+	color:#006600;
+	text-align:right;
+	margin:50px 225px auto auto;
+	font-size:45px;
+	text-shadow:#000 2px 2px 1px;
+}
+
+#header p {
+	color:#DF7401;
+	text-align:right;
+	margin:50px 225px auto auto;
+	font-size:30px;
+}
+
+#warpper{
+	width:965px;
+	margin-left:10px;
+	background:#FFFFFF;
+	position: absolute;
+	right: 0;
+}
+
+#slider {
+	
+	margin:275px auto 50px auto;
+	height:294px;
+	width:720px;
+	border:2px solid #4c4c4c;
+	border-radius:10px;
+	overflow:hidden;	
+	-webkit-box-shadow:0px 2px 7px 0px #4C4C4C;
+	-moz-box-shadow:0px 2px 7px 0px #4C4C4C;
+	box-shadow:0px 2px 7px 0px #4C4C4C;
+}
+
+#contant {
+	position:relative;
+	margin:50px auto 50px auto;
+	width:725px ;
+	background:#B18904;
+	border:2px solid #4c4c4c;
+	border-radius:10px;
+	color:#FFFFFF;
+	-webkit-box-shadow:0px 2px 7px 0px #4C4C4C;
+	-moz-box-shadow:0px 2px 7px 0px #4C4C4C;
+	box-shadow:0px 2px 7px 0px #4C4C4C;	
+}
+#nav{
+	
+	margin:5px 0 5px 0;
+	font-size: 20px;
+}
+#nav ul{
+	list-style: none;
+}
+
+
+#nav li{
+	
+	margin:5px 0 5px 5px ;
+	padding: 10px;
+}
+#nav a{
+	text-decoration:none;
+	color: #7b3526;
+}
+#nav a:hover{
+	color: #4c4c4c;
+	text-shadow:-2px 2px 7px #4c4c4c;
+}
+#contant p{
+	margin:15px 20px 10px 20px;
+	
+}
+
+#footer {
+	
+	width:965px;
+	height:75px;
+	margin:50px 0px 0px 0px;
+	border-top:2px #4c4c4c  solid ;
+	background:#B18904;
+	color:#FFFFFF;
+}
+
+#footerIn {
+	width:965px;
+	margin:auto 10px;
+	border-top:2px solid #4c4c4c;
+}
+#footerIn ul{
+	list-style:none;
+	float:right;
+	width:250px;
+	margin-top:-50px;
+}
+#footerIn img , #footerIn li{
+	float:right;
+	display:block;
+	padding-right:10px;
+}
+#footerIn img:first-child{
+	padding-bottom:7px;
+}
+#footerIn p{
+	width:250px;
+	font-size:14px;
+	color:#fff;
+	padding-top:5px;
+}
+#footerIn p:first-child{
+	padding-top:20px;
+}
+
+#footerIn a{
+	
+	margin-right:30px;
+	font-size:14px;
+	color:#fff;
+	padding-top:5px;
+	text-decoration:none;
+}
+
+#footerIn a:hover{
+	color: #4c4c4c;
+	text-shadow:-2px 2px 7px #4c4c4c;
+}
+

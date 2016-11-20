@@ -1,0 +1,26 @@
+/* 
+    Document   : validation
+    Created on : 17 déc. 2013, 12:11:00
+    Author     : salahdin
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.red{
+    color: red;
+}
+
+input.error{
+    border: 1px red inset;
+    padding: 2px; 
+}
+table{
+    
+    border: 0;
+    
+}
+td{
+    margin: 0;
+    padding: 3px 10px 3px 3px;
+    
+}
